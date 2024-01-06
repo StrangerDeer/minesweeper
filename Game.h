@@ -7,7 +7,7 @@
 
 class Game {
  public:
-  Game() : ms(10, 10, 3){}
+  Game() : ms(10, 10, 10){}
   void run();
 
  private:

@@ -30,7 +30,6 @@ class Minesweeper {
     delete[] table;
     delete[] visibleTable;
   }
-  void test();
   char markSymbol{'x'};
   bool isLose{false};
   bool isWin{false};

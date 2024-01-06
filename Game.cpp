@@ -16,7 +16,6 @@ void Game::run() {
 }
 
 void Game::start() {
-  ms.test();
   ms.printTable();
 }
 

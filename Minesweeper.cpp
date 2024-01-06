@@ -195,12 +195,4 @@ void Minesweeper::removeMarker(int coordinate) {
   }
 }
 
-void Minesweeper::test() {
-  for (size_t i = 0; i < height; i++) {
-    for (size_t j = 0; j < width; j++) {
-      std::cout << wallField << table[i * width + j] << wallField;
-    }
-    std::cout << std::endl;
-  }
-}
 
